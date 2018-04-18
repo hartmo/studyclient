@@ -1,5 +1,6 @@
 const state = {
-  main: 0
+  main: 0,
+  status: 0
 }
 
 const mutations = {

@@ -101,6 +101,9 @@ let rendererConfig = {
             name: 'fonts/[name]--[folder].[ext]'
           }
         }
+      }, {
+        test: /\.(scss|sass)$/,
+        loader: ['style', 'css', 'sass']
       }
     ]
   },
